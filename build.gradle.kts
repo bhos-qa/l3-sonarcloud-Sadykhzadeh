@@ -32,6 +32,6 @@ sonar {
         property("sonar.projectKey", "bhos-qa_l3-sonarcloud-Sadykhzadeh")
         property("sonar.organization", "bhos-qa")
         property("sonar.host.url", "https://sonarcloud.io")
-        property("sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml")
+        property("sonar.coverage.jacoco.xmlReportPaths", "build/test-results/test/TEST-PermissionManagerTest.xml")
     }
 }
